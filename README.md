@@ -6,6 +6,7 @@
 ___
 ## 데이터베이스
 * [SQL Query문](./ETC/SQL_Query.md)
+* [MySQL 접속 명령어](./ETC/SQL_Query.md)
 
 
 
