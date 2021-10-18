@@ -8,5 +8,5 @@ ___
 * [SQL Query문](./ETC/DB/SQL_Query.md)
 * [MySQL 접속 명령어](./ETC/DB/MySQL_명령어.md)
 * [MVC](./ETC)
-
+* [ORM](./ETC)
 
