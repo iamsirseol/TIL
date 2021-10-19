@@ -6,7 +6,7 @@
 ___
 ## 데이터베이스
 * [SQL Query문](./ETC/DB/SQL_Query.md)
-* [MySQL 접속 명령어](./ETC/DB/MySQL_명령어.md)
-* [MVC](./ETC)
-* [ORM](./ETC)
-
+  + [MySQL 접속 명령어](./ETC/DB/MySQL_명령어.md)
+* [MVC](./ETC/DB/MVC.md)
+* [ORM](./ETC/DB/ORM.md)
+* [NoSQL(MongoDB)](./ETC/DB/NoSQL.md)
