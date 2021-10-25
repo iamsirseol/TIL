@@ -1,6 +1,6 @@
 # **Today I Learned (TIL)**
 
-## 사용권한
+## ETC
 * [Markdown](./ETC/Markdown.md)
 * [사용권한](./ETC/사용권한.md)
 ___
@@ -20,4 +20,5 @@ ___
 * [Session](./ETC/인증보안/)
 * [Token](./ETC/인증보안/)
 * [OAuth](./ETC/인증보안/)
-<!-- * [순열/조합(코드스테이츠)](./ETC/순열&조합.md) -->
+___
+## 컴퓨터 공학(기초)
