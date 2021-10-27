@@ -26,5 +26,5 @@ ___
 * [요약](./ETC/CS/checkpoint.md)
 ___
 ## 네트워크
-* [IP와Packet](./Etc/CS/IP와IP_Packet.md)
+* [IP와Packet](./Etc/CS/IP와Packet.md)
 
