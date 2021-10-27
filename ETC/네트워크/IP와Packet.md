@@ -4,7 +4,7 @@
 
  > Packet: IP주소로 통신할때 Packet *(pack + bucket)* 이라는 하나의 소포같은 것을 이용하여 통신 단위로 데이터를 전달한다. <br>
  > 패킷에는 출발지IP, 목적지IP, 전송 데이터 등의 정보가 담겨있다.
-![](https://i.ibb.co/h1fMLsD/2021-10-27-10-57-17.png)
+![스크린샷 2021-10-27 오후 10 57 17](https://user-images.githubusercontent.com/85858672/139091414-c752d512-71f1-4f62-b468-a42690fdc7b6.png)
 <br>
 
 ## * IP Packet 한계
@@ -25,7 +25,7 @@
 > - 신뢰할 수 있는 프로토콜
 
 ### TCP 3 way handshake
-![TCP 3 way handshake](https://i.ibb.co/7104FJY/2021-10-27-11-24-41.png)
+![스크린샷 2021-10-27 오후 11 24 41](https://user-images.githubusercontent.com/85858672/139091519-c9a08d8d-e4ed-405e-bdde-d7d762435344.png)
 > 클라이언트에서 서버로 **SYN 패킷**을 보내면 <br>
 서버에서는 SYN 패킷을 받아 요청을 수락한다는 **SYN**과 **ACK** 패킷을 보낸다.<br> 그럼 클라이언트는 받은 두 패킷 중 **ACK**를 서버로 다시 보내고 그 이후부터 연결이 성립되어 데이터를 전송한다. <br>
 만약 서버가 꺼져있다면 처음 SYN패킷을 보내고 응답이 오지 않기 때문에 데이터를 보내지 않는다.
@@ -54,4 +54,4 @@ ACK: Acknowledgment
 > * 신뢰성보다는 연속성이 중요한 서비스(e.g. 스트리밍)에 주로 사용
 
 <br>
-<a href='https://ifh.cc/v-epsyho' target='_blank'><img src='https://ifh.cc/g/epsyho.png' border='0'></a>
+![스크린샷 2021-10-27 오후 11 44 48](https://user-images.githubusercontent.com/85858672/139091540-35ec2713-7b2c-4eb5-bb58-d707c8596ba4.png)
