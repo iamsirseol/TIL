@@ -54,4 +54,5 @@ ACK: Acknowledgment
 > * 신뢰성보다는 연속성이 중요한 서비스(e.g. 스트리밍)에 주로 사용
 
 <br>
+
 ![스크린샷 2021-10-27 오후 11 44 48](https://user-images.githubusercontent.com/85858672/139091540-35ec2713-7b2c-4eb5-bb58-d707c8596ba4.png)
