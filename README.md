@@ -24,4 +24,7 @@ ___
 ___
 ## 컴퓨터 공학(기초)
 * [요약](./ETC/CS/checkpoint.md)
+___
+## 네트워크
+* [IP와Packet](./Etc/CS/IP와IP_Packet.md)
 
