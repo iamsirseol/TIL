@@ -32,5 +32,7 @@ ___
 ___
 ## AWS (진행 중..)
 * [EC2](./til/AWS/EC2.md)
+* [RDS](./til/AWS/RDS.md)
+
 
 
