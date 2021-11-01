@@ -4,6 +4,7 @@
 * [Markdown](./til/Markdown.md)
 * [사용권한](./til/사용권한.md)
 * [콜백함수](./til/콜백함수.md)
+
 ___
 ## 데이터베이스
 * [SQL Query문](./til/DB/SQL_Query.md)
@@ -12,6 +13,7 @@ ___
 <!-- * [MVC](./til/DB/MVC.md)
 * [ORM](./til/DB/ORM.md) -->
 * [NoSQL(MongoDB) (진행 중..)](./til/DB/NoSQL.md)
+
 ___
 ## Algorithm
 * [순열/조합(코드스테이츠)](./til/순열&조합.md)
@@ -25,6 +27,8 @@ ___
 ___
 ## 컴퓨터 공학(기초)
 * [요약](./til/CS/checkpoint.md)
+*
+
 ___
 ## 네트워크
 * [IP와Packet](./til/네트워크/IP와Packet.md)
