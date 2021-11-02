@@ -37,3 +37,10 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 ```
 nvm --version // 버전을 다시 확인해 본다.
 ```
+
+참조
+1. [nvm github](https://github.com/nvm-sh/nvm#installing-and-updating)
+2. [블로그](https://dev.to/duhbhavesh/nvm-command-not-found-1ho)
+
+
+[README.md로 이동](../README.md)
