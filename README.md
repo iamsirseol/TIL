@@ -10,7 +10,7 @@ ___
 ## 데이터베이스
 * [SQL Query문](./til/DB/SQL_Query.md)
   + [MySQL 명령어](./til/DB/MySQL_명령어.md)
-* [트랜잭션](./til/DB/트랜잭션.md)
+* [트랜잭션 (ACID)](./til/DB/트랜잭션.md)
 <!-- * [MVC](./til/DB/MVC.md)
 * [ORM](./til/DB/ORM.md) -->
 * [NoSQL(MongoDB) (진행 중..)](./til/DB/NoSQL.md)
