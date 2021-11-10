@@ -1,11 +1,11 @@
-# **SQL Query문 / 명령어**
+# **SQL_Query문 / 명령어**
 
 * SELECT 
->> 쿼리문 작성시 대소문자는 구분하지 않아도 된다.
+> 쿼리문 작성시 대소문자는 구분하지 않아도 된다.
 ```sql
 SELECT * FROM 테이블_이름
 // '테이블_이름'이 가진 모든 데이터를 가져옴
-mysql> select * from category;
+mysq> select * from category;
 +----+--------+
 | id | name   |
 +----+--------+
@@ -29,7 +29,7 @@ mysql> SELECT id FROM category;
 ```
 
 * WHERE
->> 필터역할을 하는 쿼리문 (선택적 사용 가능)
+> 필터역할을 하는 쿼리문 (선택적 사용 가능)
 ```sql
 // id가 1인 데이터를 가져옴
 mysql> select * from category where id=1;
@@ -39,7 +39,7 @@ mysql> select * from category where id=1;
 |  1 | soccer |
 +----+--------+
 
-* NULL: 다음과 같은 테이블이 있다고 하자
+* 다음과 같은 테이블이 있다고 하자
 +----+-------------+-------------------------------+--------+
 | id | name        | email                         | roleId |
 +----+-------------+-------------------------------+--------+
@@ -70,5 +70,16 @@ mysql> select * from user where roleId is not null;
 +----+-------------+-------------------------------+--------+
 ```
 
+* JOIN
+> 두 테이블의 공통된 부분을 기준으로 연결한다.
+```sql
+// user와 content 테이블에서 content의 userId가 1이고 user의 name이 'jiSungPark'인 데이터를 연결하였을때
+mysql> SELECT title FROM user JOIN content ON 1=content.userId WHERE name='jiSungPark';
++--------+
+| title  |
++--------+
+| soccer |
++--------+
+```
 
 [README.md](../../README.md)
