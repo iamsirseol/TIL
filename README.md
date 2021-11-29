@@ -4,7 +4,7 @@
 * [Markdown](./til/ETC/Markdown.md)
 * [사용권한](./til/ETC/사용권한.md)
 * [콜백함수](./til/ETC/콜백함수.md)
-* [오류들](./til/ETC/error.md)
+* [에러들](./til/ETC/error.md)
 ___
 ## 프론트엔드
  * [REUDX](./til/REDUX.md)
