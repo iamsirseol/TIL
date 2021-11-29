@@ -7,7 +7,7 @@
 * [에러들](./til/ETC/error.md)
 ___
 ## 프론트엔드
- * [REUDX](./til/REDUX.md)
+ * [REDUX](./til/REDUX.md)
 ___
 ## 데이터베이스
 * [SQL Query문](./til/DB/SQL_Query.md)
