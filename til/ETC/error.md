@@ -42,5 +42,40 @@ nvm --version // 버전을 다시 확인해 본다.
 1. [nvm github](https://github.com/nvm-sh/nvm#installing-and-updating)
 2. [블로그](https://dev.to/duhbhavesh/nvm-command-not-found-1ho)
 
+<br>
+
+___
+
+## ⚠️Warning: Each child in a list should have a unique "key" prop.
+```js
+  {
+      fetchedDiary.record.map((el) => 
+          <>
+              <ImageBox key={el.id} img={el.image} ></ImageBox>
+              <ContentBox>{el.content}</ContentBox>
+              <HashtagBox>{el.hashtag.split(', ').map((tag, idx) => 
+                  <span key={idx * 10}>{`#${tag}`}</span>)}
+              </HashtagBox>
+          </>
+      )
+  }
+```
+> 프로젝트 간 위와같이 코드를 작성하였더니 key를 prop으로 전달해 주라는 경고문이 떴다. 분명히 `ImageBox`에 key값을 줬는데 오류가 뜬 이유를 찾아 보니<br>
+> 최상위의 컴포넌트에 key값을 줘야한다고 하여 아래와 같이 수정하여 문제를 해결하였다. <br>
+
+```js
+  {
+      fetchedDiary.record.map((el) => 
+          <BOX key={el.id} >
+              <ImageBox img={el.image} ></ImageBox>
+              <ContentBox>{el.content}</ContentBox>
+              <HashtagBox>{el.hashtag.split(', ').map((tag, idx) => 
+                  <span key={idx * 10}>{`#${tag}`}</span>)}
+              </HashtagBox>
+          </BOX>
+      )
+  }
+```
+
 
 [README.md로 이동](../README.md)
