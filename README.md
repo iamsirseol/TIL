@@ -6,9 +6,10 @@
 * [콜백함수](./til/ETC/콜백함수.md)
 * [에러들](./til/ETC/error.md)
 ___
-## 프론트엔드
+## 프론트엔드 (프로젝트)
  * [REDUX](./til/REDUX.md)
  * [CSS](./til/CSS.md)
+ * [비동기](./til/async.md)
 ___
 ## 데이터베이스
 * [SQL Query문](./til/DB/SQL_Query.md)
