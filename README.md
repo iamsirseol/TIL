@@ -38,9 +38,6 @@ ___
 * [IP와Packet](./til/네트워크/IP와Packet.md)
 
 ___
-## AWS (공부 중..)
-* [EC2](./til/AWS/EC2.md)
-* [RDS](./til/AWS/RDS.md)
-
-
+## 기술면접
+* [코드스테이츠 리스트](./til/기술면접/기술면접.md)
 
