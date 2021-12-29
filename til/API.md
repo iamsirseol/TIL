@@ -20,3 +20,11 @@
 * 핸드폰 : GPS를 통해 위치 확인이 가능
 * PC : WiFi를 통해 최선의 방법으로 위치 확인 (핸드폰보다 오차가 있을 수 있다.)
 ![image](https://user-images.githubusercontent.com/85858672/147567282-b9285219-408e-4d56-b22f-148b885af91b.png)
+
+<br>
+
+* clearWatch : 현재위치 추적 종료
+* watchPosition : 네비게이션처럼 장치가 지속적으로 위치 추적
+* getCurrentPosition : 현재의 위치 추적 (프로젝트에 사용한 함수)
+![image](https://user-images.githubusercontent.com/85858672/147663975-bb7f735f-aa9c-4bd0-b12a-50dffbc3fb9e.png)
+
