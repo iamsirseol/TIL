@@ -28,3 +28,7 @@
 * getCurrentPosition : 현재의 위치 추적 (프로젝트에 사용한 함수)
 ![image](https://user-images.githubusercontent.com/85858672/147663975-bb7f735f-aa9c-4bd0-b12a-50dffbc3fb9e.png)
 
+<br>
+
+> 추가적으로 이번 프로젝트 간 날씨 API를 사용 하였는데 가장 보편적으로 사용하는 OpenWeatherAPI를 사용하였다. ~~다른 API로 변경 예정(최저/최고 기온이 가끔씩 동일)~~ 
+## OpenWeatehr API
