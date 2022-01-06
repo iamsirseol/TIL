@@ -9,7 +9,6 @@ ___
 ## 프론트엔드 (프로젝트)
  * [REDUX](./til/REDUX.md)
  * [CSS](./til/CSS.md)
- * [비동기](./til/async.md)
  * [API](./til/API.md)
 ___
 ## 데이터베이스
