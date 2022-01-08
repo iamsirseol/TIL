@@ -78,7 +78,9 @@ ___
 ```
 
 <br>
+
 ___
+
 ## ⚠️ERROR:  While executing gem ... (Gem::FilePermissionError)
     You don't have write permissions for the /Library/Ruby/Gems/2.6.0 directory.
 
