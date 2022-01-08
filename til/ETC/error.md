@@ -77,5 +77,11 @@ ___
   }
 ```
 
+<br>
+___
+## ⚠️ERROR:  While executing gem ... (Gem::FilePermissionError)
+    You don't have write permissions for the /Library/Ruby/Gems/2.6.0 directory.
+
+
 
 [README.md로 이동](../README.md)
