@@ -82,7 +82,18 @@ ___
 ___
 
 ## ⚠️ERROR:  While executing gem ... (Gem::FilePermissionError) <br> You don't have write permissions for the /Library/Ruby/Gems/2.6.0 directory.
+> 깃헙의 블로그를 생성하는 과정 중에서 `gem install bundler` 를 설치하기 위한 과정에 있었는데 위와 같은 에러가 발생했다.
+> 해당 디렉토리의 Ruby/Gems 를 읽지 못하는 것으로 이해를 하였는데 중간중간 시간을 내어 검색을 해보니 아래 깃헙의 해결책을 찾을 수 있었다.
+[검색결과](https://github.com/rbenv/rbenv/issues/1267) <br>
+
+위 내용에 따라 아래와 같이 터미널에 입력을 해 주었다.
+```
+export GEM_HOME="$HOME/.gem"
+```
+> 이후 다시 `gem install bundler`을 해 주었을때 이상없이 설치가 완료가 되었다.
 
 
+
+`이 건은 단순 에러핸들링이 아니라 깃헙 블로그 설정 전체에 삽입 할 예정이다.`
 
 [README.md로 이동](../README.md)
