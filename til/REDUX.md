@@ -8,7 +8,7 @@
 <br>
 
 ## Redux 작동 원리
- `| component |` ➡️ `| action |` ➡️ `| reducer |` ➡️ `| sotre |` ➡️ `| component |`
+ `| component |` ➡️ `| action |` ➡️ `| reducer |` ➡️ `| store |` ➡️ `| component |`
 
 1. component는 우리가 화면으로 보는 app이다.
 2. store는 정보를 저장하고 있는 저장소이다.
