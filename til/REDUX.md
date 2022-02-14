@@ -12,7 +12,7 @@
 
 1. component는 우리가 화면으로 보는 app이다.
 2. store는 정보를 저장하고 있는 저장소이다.
-3. component에서 상태가 변경이되면 store에 없데이트를 해줘야한다.
+3. component에서 상태가 변경이되면 store에 업데이트를 해줘야한다.
 4. 이 때 직접적으로 store에 상태를 업데이트 하는 것이 아니라 중간의 action과 reducer를 사용하여 상태를 관리한다.
 5. dispatch를 통해 component의 상태가 호출이 되고
 6. action에 정의된 내용이 reducer에 의해 handle된다.
