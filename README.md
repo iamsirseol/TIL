@@ -7,8 +7,9 @@
 * [에러들](./til/ETC/error.md)
 ___
 ## 자료구조
-* [BFS]
-* [DFS]
+* [Graph](./til/자료구조/Graph.md)
+* [BFS](./til/자료구조/BFS.md)
+* [DFS](./til/자료구조/DFS.md)
 ___
 ## 프론트엔드 (프로젝트)
 * [REDUX](./til/REDUX.md)
@@ -32,10 +33,6 @@ ___
 ___
 ## Algorithm
 * [순열/조합(코드스테이츠)](./til/Algorithm/순열&조합.md)
-
-___
-## 컴퓨터 공학(기초)
-* [요약](./til/CS/checkpoint.md)
 
 ___
 ## 네트워크
