@@ -11,7 +11,7 @@ ___
 * [BFS](./til/자료구조/BFS.md)
 * [DFS](./til/자료구조/DFS.md)
 ___
-## 프론트엔드 (프로젝트)
+## 코드스테이츠 프로젝트
 * [REDUX](./til/REDUX.md)
 * [CSS](./til/CSS.md)
 * [API](./til/API.md)
