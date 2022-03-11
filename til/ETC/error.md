@@ -1,4 +1,4 @@
-## ⚠️ zsh: command not found: nvm (macOS M1 user)
+## ⚠️ zsh: command not found: nvm (macOS M1)
 
 <br>
 
