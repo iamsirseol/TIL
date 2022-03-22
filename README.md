@@ -18,7 +18,7 @@ ___
 
 ___
 ## 코드스테이츠 프로젝트
-* [REDUX](./til/REDUX.md)
+* [Redux](./til/REDUX.md)
 * [CSS(Styeld-components)](./til/CSS.md)
 * [API](./til/API.md)
 
