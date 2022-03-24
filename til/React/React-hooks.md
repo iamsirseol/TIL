@@ -3,8 +3,8 @@
 > 함수의 값이 변화하지 않을 경우 리렌더링하지않고 memoization하여 필요한 값만 가져오고 리렌더링 하지 않는 기능이다.
 ```js
 const exampleMemo = useMemo(() => {
-    return '임의의 함수'
-}, ['임의의 함수 값의 state']);
+    return '값'
+}, ['리렌더링이 될 경우의 state']);
 ```
 <br>
 
@@ -49,4 +49,11 @@ const Page = () => {
 
 # **useCallback**
 
-*
+> useMemo와 비슷하게 memoization하여 매번 리렌더링이 될 경우 함수를 불필요하게 작동시키지 않게 하기 위한 hook이다.
+```js
+const exampleCallback = useCallback(() => {
+    return '값'
+}, ['리렌더링이 될 경우의 state']);
+```
+
+[README.md로 이동](../../README.md)
