@@ -56,4 +56,31 @@ const exampleCallback = useCallback(() => {
 }, ['리렌더링이 될 경우의 state']);
 ```
 
+<br>
+
+# **useReducer**
+
+> useReducer는 useState보다 복잡한 state를 관리할 수 있는 hook으로 reducer(state 업데이트), dispatch(state 업데이트 요청), action(업데이트 할 내용)의 세 요소로 상태를 관리한다.
+```js
+const ACTION_TYPES = {
+    plus: 'plus',
+    minus: 'minus'
+};
+
+const reducer = (state, action) => {
+    switch (action.type) {
+        case ACTION_TYPES.plus: 
+            return state + action.payload;
+        case ACTION_TYPES.minus:
+            return  state - action.payload;
+        default:
+            return state;
+    }
+}
+
+// Redux와 동일하게 action의 타입 별 실행되는 리듀서가 다름을 알 수 있다.
+```
+
+<br>
+
 [README.md로 이동](../../README.md)
