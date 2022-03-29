@@ -62,6 +62,7 @@ const exampleCallback = useCallback(() => {
 
 > useReducer는 useState보다 복잡한 state를 관리할 수 있는 hook으로 reducer(state 업데이트), dispatch(state 업데이트 요청), action(업데이트 할 내용)의 세 요소로 상태를 관리한다.
 ```js
+// 간단 예시
 const ACTION_TYPES = {
     plus: 'plus',
     minus: 'minus'
