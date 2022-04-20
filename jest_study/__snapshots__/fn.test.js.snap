@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`part2 will fail every time 1`] = `
+Object {
+  "createdAt": 2022-04-20T04:13:49.411Z,
+  "id": 5,
+  "name": "LeBron James",
+}
+`;
