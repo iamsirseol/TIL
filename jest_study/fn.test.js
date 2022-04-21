@@ -65,37 +65,36 @@ describe('part1', () => {
     test ('error?', () => {
         expect(() => throwErr()).toThrow('xxx');
     });
-    // test ('error??', () => {
-    //     expect(fn.throwErr()).toThrow('xxx');
-    // });
-    // test ('3초 후에 내 이름', (done) => {
-    //     function callback(name) {
-    //         try {
-    //             expect(name).toBe('Dong');
-    //             done();
-    //         }
-    //         catch (error) {
-    //             done();
-    //         }
-    //     }
-    //     fn.getName(callback);
-    // });
+    test ('error??', () => {
+        expect(fn.throwErr()).toThrow('xxx');
+    });
+    test ('3초 후에 내 이름', (done) => {
+        function callback(name) {
+            try {
+                expect(name).toBe('Dong');
+                done();
+            } catch (error) {
+                done();
+            }
+        }
+        fn.getName(callback);
+    });
     
     test ('1 + 1은 2', () => {
         expect(fn.add(1, 1)).toBe(2);
     });
     
-    // test ('3초 후에 내 나이', async () => {
-    //     // return fn.getAge().then(age => {
-    //     //     expect(age).toBe(31);
-    //     // });
-    //     await expect(fn.getAge()).resolves.toBe(31);
-    // });
+    test ('3초 후에 내 나이', async () => {
+        // return fn.getAge().then(age => {
+        //     expect(age).toBe(31);
+        // });
+        await expect(fn.getAge()).resolves.toBe(31);
+    });
     
-    // test ('3초 후에 내 나이', async () => {
-    //     const age = await fn.getAge();
-    //     expect(age).toBe(31);
-    // });
+    test ('3초 후에 내 나이', async () => {
+        const age = await fn.getAge();
+        expect(age).toBe(31);
+    });
 });
 
 describe('part2', () => {
