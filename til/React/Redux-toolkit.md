@@ -17,7 +17,8 @@ ReactDOM.render(
 );
 ```
 
-<br />
+<br/>
+
 store.js를 만들어준다.
 ```js
 // store.js
