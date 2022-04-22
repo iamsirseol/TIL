@@ -6,6 +6,7 @@
 
 inex.js는 기존의 셋팅과 동일하다.
 ```js
+// index.js
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
@@ -16,8 +17,10 @@ ReactDOM.render(
 );
 ```
 
+<br />
 store.js를 만들어준다.
 ```js
+// store.js
 import { configureStore } from '@reduxjs/toolkit';
 
 export const store = configureStore({
