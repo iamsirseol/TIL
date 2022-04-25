@@ -94,6 +94,5 @@ export GEM_HOME="$HOME/.gem"
 
 
 
-`이 건은 단순 에러핸들링이 아니라 깃헙 블로그 설정 전체에 삽입 할 예정이다.`
 
 [README.md로 이동](../README.md)
