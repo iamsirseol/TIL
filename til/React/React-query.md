@@ -17,8 +17,11 @@
 
   function Example() {
    const { isLoading, error, data } = useQuery('repoData', () =>
-     fetch('https://api.github.com/repos/tannerlinsley/react-query').then(res =>
-       res.json()
+      axios
+       .get("https://api.github.com/repos/tannerlinsley/react-query")
+       .then((res) => console.log(res.data));
+     //fetch('https://api.github.com/repos/tannerlinsley/react-query').then(res =>
+     //  res.json()
      )
    );
    // 처음 위와 같이 요청을 하면 isLoading은 data가 fetching이 완료될 때까지 true가 되어 로딩을 보여준다.
