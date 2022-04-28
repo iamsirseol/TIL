@@ -92,7 +92,30 @@ export GEM_HOME="$HOME/.gem"
 ```
 > 이후 다시 `gem install bundler`을 해 주었을때 이상없이 설치가 완료가 되었다.
 
-
-
+## ⚠️ERROR: No QueryClient set, use QueryClientProvider to set one
+> jest와 testing-library를 통해서 프로젝트를 하고 있는 와중에 발생한 에러이다.
+> App.js에는 아래와 같이 잘 'queryClientProvider'를 해주었는데도 같은 에러가 발생을 하였다.
+> 구글링 결과 'npm test'에서 발생한 에러임을 한참 후에 인지하였다...
+```js
+function App() {
+  return (
+    <QueryClientProvider client={queryClient} contextSharing={true}>
+      <Signin />
+    </QueryClientProvider>
+  );
+}
+```
+> 따라서 아래와 같이 test.js파일을 수정하여 에러 해결.
+```js
+  it("snapshot : <Signin />", () => {
+    render(
+      <QueryClientProvider client={queryClient}>
+        <Signin />
+      </QueryClientProvider>
+    );
+    const component = screen.getByTestId("sign-in");
+    expect(component).toMatchSnapshot();
+  });
+  ```
 
 [README.md로 이동](../README.md)
