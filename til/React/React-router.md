@@ -66,5 +66,5 @@ function App() {
 export default App;
 ```
 
-[참조 stack overflow](https://stackoverflow.com/questions/69864165/error-privateroute-is-not-a-route-component-all-component-children-of-rou)
-[README.md로 이동](../../../README.md)
+[참조 stack overflow](https://stackoverflow.com/questions/69864165/error-privateroute-is-not-a-route-component-all-component-children-of-rou) <br />
+[README.md로 이동](../../README.md)
