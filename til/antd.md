@@ -48,5 +48,42 @@ return (
 2. Form의 기존 api에서는 변경사항없이 onFinish에 작동하고자하는 함수를 기입한다.
 3. `Save`버튼 클릭 시 Form의 Input에 삽입된 value들이 submit된다.
 
+<br/>
+
+## Form.Item 유효성 검사하기
+> 패스워드의 입력기준을 9자 이상 문자 + 숫자 + 특수문자 포함으로 정하였다. <br/>
+> Form.Item에 rules를 추가하여 validator를 추가할 수 있다.
+
+```js
+  const passwordReg = useCallback((_, value) => {
+    const regex = /^(?=.*[a-zA-Z])((?=.*\d)(?=.*\W)).{8,16}$/;
+
+    if (regex.test(value)) {
+      return Promise.resolve();
+    }
+    return Promise.reject(new Error("패스워드는 숫자, 문자, 특수문자로 구성되어야합니다."));
+  }, []);
+  
+  // ... 중략
+  
+  <Form.Item
+    hasFeedback
+    name="new_password"
+    label="new password"
+    pattern="[A-Za-z]+"
+    rules={[
+      { min: 9 },
+      {
+        required: true,
+        message: "Please input your new password.",
+      },
+      { validator: passwordReg },
+    ]}
+  >
+    <Input type="password" placeholder="input placeholder" />
+  </Form.Item>
+```
+> useCallback 사용하여 함수가 패스워드가 입력된 경우에만 작동하도록 한다.
+
 
 [README.md로 이동하기](../README.md)
