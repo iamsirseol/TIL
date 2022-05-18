@@ -70,7 +70,7 @@ return (
     hasFeedback
     name="new_password"
     label="new password"
-    pattern="[A-Za-z]+"
+    pattern="[A-Za-z]+" // 입력시 항상 영어가 입력되게 한다.
     rules={[
       { min: 9 },
       {
