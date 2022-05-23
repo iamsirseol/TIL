@@ -6,6 +6,7 @@
 - [사용권한](./til/ETC/사용권한.md)
 - [콜백함수](./til/ETC/콜백함수.md)
 - [에러들](./til/ETC/error.md)
+- [절대경로](./til/ETC/절대경로.md)
 
 ---
 
