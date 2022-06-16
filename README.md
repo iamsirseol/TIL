@@ -23,7 +23,7 @@
 ## TDD
 
 - [TDD](./til/ETC/TDD.md)
-- [Jest](./til/ETC/Jest.md)
+- [Testing-library](./til/ETC/Testing-library.md)
 
 ---
 
