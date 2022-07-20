@@ -1,6 +1,6 @@
 # **useMemo**
 
-> **상태**의 값이 변화하지 않을 경우 리렌더링하지않고 memoization하여 필요한 값만 가져오고 리렌더링 하지 않는 기능이다.
+> `**상태**`의 값이 변화하지 않을 경우 리렌더링하지않고 memoization하여 필요한 값만 가져오고 리렌더링 하지 않는 기능이다.
 ```js
 const exampleMemo = useMemo(() => {
     return '값'
@@ -49,7 +49,7 @@ const Page = () => {
 
 # **useCallback**
 
-> useMemo는 state를 memoization하여 불필요한 리렌더링을 막는 것처럼 useCallback은 **함수**를 불필요하게 작동시키지 않게 하기 위한 hook이다.
+> useMemo는 state를 memoization하여 불필요한 리렌더링을 막는 것처럼 useCallback은 `**함수**`를 불필요하게 작동시키지 않게 하기 위한 hook이다.
 ```js
 const exampleCallback = useCallback(() => {
     return '값'
